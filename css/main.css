@@ -1,0 +1,19 @@
+.header{
+
+}
+.left{
+    width: 100px;
+}
+.right{
+    width: 200px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.navbar{
+    border-radius: 0 !important; 
+}
+.navbar li a:hover {
+    background-color: #4CC2EA;
+    color: #fff;
+}
