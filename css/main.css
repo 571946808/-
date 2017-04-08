@@ -1,19 +1,27 @@
 .header{
 
 }
+.header h1 {
+	font-weight: bold;
+	font-family: '微软雅黑';
+	letter-spacing:2px;
+}
 .left{
     width: 100px;
 }
 .right{
     width: 200px;
     position: relative;
-    top: 20px;
-    left: 20px;
+    top: 15px;
+    left: 25px;
 }
 .navbar{
     border-radius: 0 !important; 
 }
 .navbar li a:hover {
-    background-color: #4CC2EA;
+    background-color: #1CD5B5;
     color: #fff;
+}
+.navbar li a {
+    color: #fff !important;
 }
