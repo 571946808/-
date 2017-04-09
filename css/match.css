@@ -21,7 +21,7 @@ a.smart-margin-left{
   line-height: 35px;
 }
 .public{
-  margin-top: 10px;
+  margin-top: 30px;
 }
 .public .panel-body{
   margin-left: -20px !important;
@@ -39,6 +39,14 @@ a.smart-margin-left{
 span.information{
   display: inline-block;
   width: 220px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  float: left;
+}
+span.infor{
+  display: inline-block;
+  width: 370px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
