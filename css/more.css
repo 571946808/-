@@ -30,8 +30,7 @@ div.row-text h3{
 }
 div.public a{
     text-decoration: none;
-    color: #3c763d;
 }
-div.public a:hover{
-    color: #337ab7;
+div.public .alert a{
+    color: #3c763d;
 }

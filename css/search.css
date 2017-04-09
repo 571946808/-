@@ -11,3 +11,6 @@ div.img-container img{
 .margin-top-15{
     margin-top: 15px;
 }
+.public a.btn{
+    color: #fff !important;
+}
