@@ -48,9 +48,13 @@
     
     display: block;
     color: #fff;
+    z-index: 100;
 }
 .node{
     height: 0;
+}
+.face{
+    z-index: -1;
 }
 
 .list a:hover{
