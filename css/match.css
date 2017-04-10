@@ -48,9 +48,21 @@ a.smart-margin-left i{
   float: left;
   display: inline-block;
 }
+span.lixiang-information{
+  display: inline-block;
+  width: 408px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  float: left;
+}
+span.lixiang-date{
+  display: inline-block;
+  float: right;
+}
 span.information{
   display: inline-block;
-  width: 225px;
+  width: 217px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
