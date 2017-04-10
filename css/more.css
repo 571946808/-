@@ -34,3 +34,30 @@ div.public a{
 div.public .alert a{
     color: #3c763d;
 }
+
+.info-list{
+    list-style: none;
+    font-size: 17px;
+    padding: 0;
+}
+i.info-icon{
+    display: inline-block;
+    float: left;
+}
+span.info-detail{
+    display: inline-block;
+    width: 460px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: left;
+}
+span.info-date{
+    display: inline-block;
+    float: right;
+}
+div.line{
+    border-bottom: 1px dashed #DEE1E2;
+    padding: 0 0 10px 0;
+    margin: 0 0 20px;
+}
