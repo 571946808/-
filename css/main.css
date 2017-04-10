@@ -13,6 +13,12 @@ img.right{
     top: 8px;
     left: 25px;
 }
+img.font{
+    margin-left:-54px;
+    margin-top:15px;
+    width: 500px;
+    height: 60px;
+}
 .navbar{
     border-radius: 0 !important; 
 }
