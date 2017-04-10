@@ -40,6 +40,9 @@ div.public .alert a{
     font-size: 17px;
     padding: 0;
 }
+.margin-top-50{
+    margin-top: -50px;
+}
 i.info-icon{
     display: inline-block;
     float: left;

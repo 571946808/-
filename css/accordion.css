@@ -49,14 +49,17 @@
     display: block;
     color: #fff;
 }
+.node{
+    height: 0;
+}
 
-.list a:hover {
-    text-indent: 20px;
+.list a:hover{
+    text-indent: 70px;
 }
 
 .list dt, .list dd {
 
-    text-indent: 10px;
+    text-indent: 40px;
     line-height: 55px;
     background: #E0FBAC;
     margin: 0;
@@ -168,11 +171,11 @@
 
 .sashimi dt, .sashimi dd, .sashimi a { background: #73C8A9; }
 .nigiri dt, .nigiri dd, .nigiri a { background: #E32551; }
-.maki dt, .maki dd, .maki a { background: #FFC219; }
+.maki dt, .maki dd, .maki a { background: #61c19e; }
 
 .sashimi a:hover { background: #61c19e; }
 .nigiri a:hover { background: #d31b46; }
-.maki a:hover { background: #ffbb00; }
+.maki a:hover { background: #73C8A9; }
 
 .nigiri {
 
