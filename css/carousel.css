@@ -37,7 +37,7 @@ body {
   width: 250px;
 }
 .navbar-wrapper .navbar li:first-child{
-  margin-left: 50px;
+  margin-left: 40px;
 }
 .navbar-wrapper .navbar li:not(:last-child){
   border-right: 1px dotted #fff;
