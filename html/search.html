@@ -32,6 +32,7 @@
 
         <!-- Custom styles for this template -->
         <link href="../css/carousel.css" rel="stylesheet">
+        <link href="../css/bootstrap-datetimepicker.min.css" rel="stylesheet">
     </head>
     <!-- NAVBAR
     ================================================== -->
@@ -169,8 +170,18 @@
                                                 东北师范大学罗格斯大学•纽瓦克学院</option>
                                             </select>
                                         </div>
+                                    </div>                        
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">年份：</label>
+                                        <div class="col-sm-6">
+                                            <div class="input-group date form_datetime" data-date="2017" data-link-field="dtp_input1">
+                                                <input class="form-control" size="16" type="text" value="" readonly>
+                                                <span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+                                            </div>
+                                            <input type="hidden" id="dtp_input1" value="" /><br/>
+                                        </div>
                                     </div>
-                                    <div class="col-sm-3 col-sm-offset-5">
+                                    <div class="col-sm-3 col-sm-offset-5 margin-top-submit">
                                         <button class="btn btn-primary" type="submit">搜&nbsp;索</button>
                                     </div>
                                 </form>
@@ -254,10 +265,24 @@
             </div>
         </footer>
         <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
+        
         <script src="../js/jquery.min.js"></script>
         <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/bootstrap-datetimepicker.min.js"></script>
         <script src="../js/holder.min.js"></script>
         <script src="../js/ie10-viewport-bug-workaround.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                $('.form_datetime').datetimepicker({
+                    //language:  'fr',
+                    startView: 'decade',  
+                         minView: 'decade',  
+                         format: 'yyyy',  
+                         maxViewMode: 2,  
+                         minViewMode:2,  
+                          autoclose: true 
+                });
+            });
+        </script>
     </body>
 </html>
