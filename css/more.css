@@ -7,7 +7,7 @@ div.alert-success{
     font-size: 17px;
     font-weight: bold;
 }
-div.public{
+div.public-more{
     margin-top: 10px;
     margin-bottom: -30px;
 }
@@ -28,10 +28,10 @@ div.row-text h3{
     white-space: nowrap;
     text-overflow: ellipsis;
 }
-div.public a{
+div.public-more a{
     text-decoration: none;
 }
-div.public .alert a{
+div.public-more .alert a{
     color: #3c763d;
 }
 
