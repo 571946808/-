@@ -31,6 +31,7 @@ body {
 }
 .navbar {
   background: #337ab7; 
+  font-size: 16px;
 }
 .nav li {
   margin: 0;  
@@ -58,7 +59,7 @@ body {
 .carousel {
   height: 500px;
   position: relative;
-  top: -21px;
+  top: -22px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -116,7 +117,7 @@ body {
 @media (max-width: 1200px) {
   /* Navbar positioning foo */
   .nav li a {
-    margin: 0 43px;
+    margin: 0 40px;
   }
 }
 @media (min-width: 768px) {
